@@ -14,13 +14,13 @@ export default defineConfig({
     },
   }),
   manifest: {
-    name: 'X to Obsidian',
+    name: 'Xidian',
     description: 'Capture X/Twitter posts to Obsidian as clean markdown',
     version: '1.0.0',
     permissions: ['activeTab', 'storage'],
     host_permissions: ['*://x.com/*', '*://twitter.com/*'],
     action: {
-      default_title: 'Toggle X to Obsidian selection mode',
+      default_title: 'Toggle Xidian selection mode',
       default_icon: {
         16: 'icon/16.png',
         32: 'icon/32.png',
